@@ -21,3 +21,15 @@ Now, in working directory exist file confbridge-15541-1254788256.wav.new, durati
 When you want another file name, the use --footage_dest option, like:
 
 `wav-cutter confbridge-15541-1254788256.wav 2000 --footage_dest new.wav`
+
+## Install 
+
+With cURL
+
+`curl https://raw.githubusercontent.com/oxess/wav-cutter/master/wav-cutter.py > /usr/local/bin/wav-cutter`
+`chmod +x /usr/local/bin/wav-cutter`
+
+or Wget
+
+`wget -O /usr/local/bin/wav-cutter https://raw.githubusercontent.com/oxess/wav-cutter/master/wav-cutter.py`
+`chmod +x /usr/local/bin/wav-cutter`
